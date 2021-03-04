@@ -1,0 +1,121 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: sans-serif;
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0px 20px;
+  margin-top: 18px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+  transition-duration: 1s;
+}
+
+.header_searchInput:focus {
+  width: 70%;
+}
+
+.header_searchIcon {
+  margin-top: 0px;
+  padding: 6px;
+  height: 22px;
+  background-color: #000000;
+  color: white;
+}
+
+.header_searchIcon:hover {
+  color: rgb(255, 165, 46);
+}
+
+.header_searchIcon:active {
+  color: rgb(224, 141, 32);
+  box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.1), inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header_optionLineOne {
+  font-size: 10px;
+}
+
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header_optionBasket:hover {
+  color: rgb(224, 141, 32);
+}
+.header_basketCount {
+  margin: 0px 10px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #131921;
+}
+
+.header-link:active {
+  color: white;
+}
+
+.header_divIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  padding: 0;
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.header_divIcon:active {
+  box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.1), inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.header_option:hover {
+  color: rgb(255, 166, 49);
+}
