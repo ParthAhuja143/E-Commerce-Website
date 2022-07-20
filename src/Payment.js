@@ -50,7 +50,7 @@ function Payment() {
    // console.log('-------------------------',clientSecret)
 
     const handleSubmit = async (event) => { 
-
+        
         event.preventDefault()
         setProcessing(true) // disable button on processing
 
